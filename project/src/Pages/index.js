@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import Navbar from '../Components/Navbar'
 
 const Home = () => {
+    const [darkMode,setDarkMode] = useState(false)
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <>
+<Navbar />
+        </>
     )
 }
 
