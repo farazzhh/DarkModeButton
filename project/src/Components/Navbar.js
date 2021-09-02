@@ -17,10 +17,10 @@ const Navbar = ({ darkMode, darkModeHanlder }) => {
             <div className="relative flex items-center mx-2">
               <div className="w-16 h-8 bg-gray-300 rounded-full dark:bg-gray-700"></div>
               <div
-                className={`dark:bg-blue-200 ease-in-out w-8 h-8 bg-blue-600 absolute rounded-full ring-1 right-0 transform ${
+                className={` ease-in-out w-8 h-8 bg-blue-600 absolute rounded-full ring-1 right-0 transform dark:bg-blue-200 ${
                   darkMode && "-translate-x-8"
                 }`}
-              ></div> 
+              ></div>
             </div>
           </label>
           <FaMoon className="text-black dark:text-white" />
