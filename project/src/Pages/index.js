@@ -9,9 +9,9 @@ const Home = () => {
         console.log("clicked");
   }
   return (
-    <>
+    <div className={`${darkMode ? `dark` : null}`}>
       <Navbar darkMode={darkMode} darkModeHanlder={darkModeHanlder} />
-    </>
+    </div>
   );
 };
 
