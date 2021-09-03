@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import DarkModeButton from "./DarkModeButton";
+import {ImGithub} from "react-icons/im";
 
 const Navbar = ({ darkMode, darkModeHanlder }) => {
   return (
@@ -9,8 +10,10 @@ const Navbar = ({ darkMode, darkModeHanlder }) => {
         <Link to="/" className="flex items-center">
           <span className="dark:text-white text-2xl">FRZH</span>
         </Link>
-
-        <DarkModeButton darkMode={darkMode} darkModeHanlder={darkModeHanlder}/>
+        <DarkModeButton darkMode={darkMode} darkModeHanlder={darkModeHanlder} />
+        <a href="https://github.com/farazzhh">
+          <ImGithub className="text-black dark:text-white text-4xl" />
+        </a>
       </div>
     </nav>
   );
