@@ -2,28 +2,30 @@ import React from "react";
 
 const Sections = ({ darkMode, side, src }) => {
   return (
-    <section className="dark:bg-gray-600 bg-gray-100 w-screen min-h-screen flex items-center">
-      <div className="container h-96 mx-auto border-2 border-blue-400 rounded-xl shadow-md overflow-hidden bg-white dark:bg-gray-400">
-        <div
-          className={`flex ${
-            side && `flex-row-reverse`
-          } items-center h-full w-full justify-center `}
-        >
-          <img
-            src={src}
-            alt="section image"
-            className="w-1/2 h-full object-cover object-center "
-          />
-          <div className="h-full text-center flex-col justify-around bg-white w-1/2 p-9 w-1/2 p-9">
-            <h1 className="mb-8 font-bold text-2xl capitalize">
-              Section header
-            </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              laborum blanditiis libero et cumque nostrum porro, excepturi quo
-              expedita culpa doloribus ab similique accusamus dolorem provident
-              veniam praesentium facilis recusandae!
-            </p>
+    <section className="dark:bg-gray-600 bg-gray-100 w-screen flex items-center py-16">
+      <div className="container  mx-auto">
+        <div className="min-h-96 shadow-lg rounded-xl overflow-hidden  dark:bg-gray-200 bg-white">
+          <div
+            className={`flex flex-col items-center h-full w-full justify-center ${
+              side ? `md:flex-row-reverse` : `md:flex-row`
+            }   `}
+          >
+            <img
+              src={src}
+              alt="section image"
+              className="md:w-1/2 w-full h-1/2 md:h-full object-cover object-center "
+            />
+            <div className="p-3 md:w-1/2 w-full h-1/2 md:h-full  text-center flex-col justify-around items-center dark:bg-gray-200 bg-white">
+              <h1 className="md:mb-8 mb-2 font-bold md:text-2xl text-xl capitalize">
+                Section header
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                laborum blanditiis libero et cumque nostrum porro, excepturi quo
+                expedita culpa doloribus ab similique accusamus dolorem
+                provident veniam praesentium facilis recusandae!
+              </p>
+            </div>
           </div>
         </div>
       </div>
