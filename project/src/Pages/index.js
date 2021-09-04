@@ -15,9 +15,9 @@ const Home = () => {
     <div className={`${!darkMode && `dark`}`}>
       <Navbar darkMode={darkMode} darkModeHanlder={darkModeHanlder} />
       <Header />
-      <Sections darkMode={darkMode} side={false} src="./assets/section1.jpg" />
-      <Sections darkMode={darkMode} side={true} src="./assets/section2.jpg" />
-      <Footer darkMode={darkMode} />
+      <Sections  side={false} src="./assets/section1.jpg" />
+      <Sections  side={true} src="./assets/section2.jpg" />
+      <Footer  />
     </div>
   );
 };
