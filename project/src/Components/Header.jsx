@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <header className="dark:bg-gray-600 bg-blue-100 w-screen pt-12 pb-48">
       <div className="container mx-auto">
-        <div className="max-w-90 flex jusitify-center items-center">
+        <div className="max-w-90 flex flex-col lg:flex-row jusitify-center items-center">
           <img src="./assets/logo.png" className="w-1/2 lg:w-96 " alt="logo" />
           <div className="py-6 px-2 md:py-12  rounded-xl shadow-xl text-center flex-col justify-around items-center dark:bg-gray-200 bg-white">
-            <p className="my-1 md:mb-6 text-xl">
+            <p className="my-1 mb-5 lg:text-2xl text-xl">
               Welcome to{" "}
               <span className="capitalie lg:text-4xl font-bold text-2xl">
                 FRZH
