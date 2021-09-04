@@ -12,7 +12,7 @@ const Footer = ({ darkMode }) => {
           <Link to="/" className="flex items-center">
             <span className=" text-2xl">FRZH</span>
           </Link>
-          <span className="ring-2 text-xs md:text-base">Company {new Date().getFullYear()} All Rights reserved.</span>
+          <span className="text-xs md:text-base">Company {new Date().getFullYear()} All Rights reserved.</span>
           <a href="https://github.com/farazzhh">
             <ImGithub className="text-black dark:text-white text-4xl" />
           </a>
