@@ -14,7 +14,7 @@ const Header = () => {
               </span>
               <small className="text-base">site</small>
             </p>
-            <p className="capitalize lg:text-base w-11/12 mx-auto text-gray-500">
+            <p className="capitalize text-sm sm:w-3/4 md:text-base w-11/12 mx-auto text-gray-500">
               My name is FARAZ and you can see my project here! in this project
               i used create-react-app and tailwind. With the Button in
               Navbar, you can switch between Day and Night Mode
