@@ -22,9 +22,11 @@ const Sections = ({ darkMode, side, src }) => {
               <h1 className="md:my-8 my-2 font-bold lg:text-4xl text-2xl capitalize">
                 Section header
               </h1>
-              <p className="mb-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                laborum blanditiis libero et cumque nostrum porro,
+              <p className="mb-3 text-gray-500">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                tempore recusandae nobis quod rem voluptates corporis provident
+                tempora. Commodi minima est explicabo, quibusdam earum inventore
+                fugit tempora aliquid. Architecto, minima.
               </p>
             </div>
           </div>
