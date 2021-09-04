@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sections = ({ darkMode, side, src }) => {
+const Sections = ({  side, src }) => {
   return (
     <section className="dark:bg-gray-600 bg-blue-100 w-screen flex items-center pb-36 lg:pb-60">
       <div className="container  mx-auto">
