@@ -18,7 +18,7 @@ const Sections = ({  side, src }) => {
               />
             </div>
             <div className="text-center lg:h-auto sm:h-60 flex flex-col flex-1 justify-evenly lg:justify-center items-center dark:bg-gray-200 bg-white">
-              <h1 className="lg:my-8 my-4 font-bold lg:text-4xl text-2xl capitalize">
+              <h1 className="lg:my-8 my-4 lg:text-4xl text-2xl capitalize">
                 Section header
               </h1>
               <p className="mb-4 text-gray-500 w-11/12 lg:w-3/4">
