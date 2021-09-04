@@ -6,19 +6,23 @@ const Sections = ({ darkMode, side, src }) => {
       <div className="container  mx-auto">
         <div className="min-h-96 shadow-lg rounded-xl overflow-hidden  dark:bg-gray-200 bg-white">
           <div
-            className={`grid items-center h-full w-full justify-center ${
-              side ? `md:grid-flow-col` : `grid-flow-col-dense`
+            className={`grid md:grid-cols-3 grid-rows-1 items-center h-full w-full justify-center ${
+              side ? `` : ``
             }   `}
           >
-            <div className="col-span-4 h-full">
-              <img src={src} alt="section image" className=" object-cover w-full h-full"/>
+            <div className="md:col-span-2 h-full">
+              <img
+                src={src}
+                alt="section image"
+                className=" object-cover w-full h-full"
+              />
             </div>
 
-            <div className="  w-full  md:h-full  text-center flex-col justify-around items-center dark:bg-gray-200 bg-white">
-              <h1 className="md:my-6 my-2 font-bold md:text-2xl text-xl capitalize">
+            <div className=" w-11/12 mx-auto h-48  md:h-full text-center flex flex-col justify-center items-center dark:bg-gray-200 bg-white">
+              <h1 className="md:my-8 my-2 font-bold md:text-2xl text-xl capitalize">
                 Section header
               </h1>
-              <p className="mx-auto mb-3">
+              <p className="mb-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                 laborum blanditiis libero et cumque nostrum porro,
               </p>
