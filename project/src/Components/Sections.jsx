@@ -18,8 +18,8 @@ const Sections = ({ darkMode, side, src }) => {
               />
             </div>
 
-            <div className=" w-11/12 mx-auto h-48  md:h-full text-center flex flex-col justify-center items-center dark:bg-gray-200 bg-white">
-              <h1 className="md:my-8 my-2 font-bold md:text-2xl text-xl capitalize">
+            <div className=" w-11/12 mx-auto h-64  md:h-full text-center flex flex-col justify-evenly md:justify-center items-center dark:bg-gray-200 bg-white">
+              <h1 className="md:my-8 my-2 font-bold lg:text-4xl text-2xl capitalize">
                 Section header
               </h1>
               <p className="mb-3">
