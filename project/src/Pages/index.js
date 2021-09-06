@@ -8,7 +8,7 @@ const Home = () => {
   
   return (
     <>
-      <Header />
+      <Header title="FRZH"/>
       <Sections  side={false} src="./assets/section1.jpg" />
       <Sections  side={true} src="./assets/section2.jpg" />
     </>
