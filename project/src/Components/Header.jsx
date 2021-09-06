@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = ({ title, isImage }) => {
   return (
-    <header className="dark:bg-gray-600 bg-blue-100 w-screen pt-12 pb-48">
+    <header className="dark:bg-gray-600 bg-blue-100 w-screen pt-28 pb-48">
       <div className="container mx-auto">
         <div className="w-11/12 mx-auto flex flex-col lg:flex-row jusitify-center items-center">
           {isImage ? null : <img src="./assets/logo.png" className="w-1/2 lg:w-96 " alt="logo" />}
