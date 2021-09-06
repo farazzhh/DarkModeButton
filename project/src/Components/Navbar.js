@@ -11,7 +11,7 @@ const Navbar = ({ darkMode, darkModeHanlder }) => {
           <span className="dark:text-white text-2xl">FRZH</span>
         </Link>
         <DarkModeButton darkMode={darkMode} darkModeHanlder={darkModeHanlder} />
-        <Link to="/" className="flex items-center">
+        <Link to="/about" className="flex items-center">
           <span className="dark:text-white text-2xl">About</span>
         </Link>
         <Link to="/" className="flex items-center">
