@@ -7,13 +7,11 @@ import Sections from "../Components/Sections";
 const Home = () => {
   
   return (
-    <div>
-     
+    <>
       <Header />
       <Sections  side={false} src="./assets/section1.jpg" />
       <Sections  side={true} src="./assets/section2.jpg" />
-     
-    </div>
+    </>
   );
 };
 
