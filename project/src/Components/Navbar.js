@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import DarkModeButton from "./DarkModeButton";
-import {ImGithub} from "react-icons/im";
+import { ImGithub } from "react-icons/im";
 
 const Navbar = ({ darkMode, darkModeHanlder }) => {
   return (
@@ -10,13 +10,17 @@ const Navbar = ({ darkMode, darkModeHanlder }) => {
         <Link to="/" className="flex items-center">
           <span className="dark:text-white text-2xl">FRZH</span>
         </Link>
+        <div className="flex gap-10">
+          <Link to="/about" className="flex items-center">
+            <span className="dark:text-white text-gray-800 text-xl">About</span>
+          </Link>
+          <Link to="/" className="flex items-center">
+            <span className="dark:text-white text-gray-800 text-xl">
+              See us
+            </span>
+          </Link>
+        </div>
         <DarkModeButton darkMode={darkMode} darkModeHanlder={darkModeHanlder} />
-        <Link to="/about" className="flex items-center">
-          <span className="dark:text-white text-2xl">About</span>
-        </Link>
-        <Link to="/" className="flex items-center">
-          <span className="dark:text-white text-2xl">See us</span>
-        </Link>
         <a href="https://github.com/farazzhh">
           <ImGithub className="text-black dark:text-white text-4xl" />
         </a>
