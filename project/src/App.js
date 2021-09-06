@@ -12,13 +12,15 @@ function App() {
     setDarkMode(!darkMode);
     console.log("clicked");
   };
-  
+
   return (
-    <Router  className={`${!darkMode && `dark`}`}>
-      <Navbar darkMode={darkMode} darkModeHanlder={darkModeHanlder} />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about" component={About} />
-      <Footer/>
+    <Router>
+      <div className={`${!darkMode && `dark`}`}>
+        <Navbar darkMode={darkMode} darkModeHanlder={darkModeHanlder} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Footer />
+      </div>
     </Router>
   );
 }
