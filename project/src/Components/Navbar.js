@@ -14,16 +14,16 @@ const Navbar = ({ darkMode, darkModeHanlder }) => {
           <Link to="/about" className="flex items-center">
             <span className="dark:text-white text-gray-800 text-xl">About</span>
           </Link>
-          <Link to="/" className="flex items-center">
+          {/* <Link to="/" className="flex items-center">
             <span className="dark:text-white text-gray-800 text-xl">
               See us
             </span>
-          </Link>
+          </Link> */}
         </div>
-        <DarkModeButton darkMode={darkMode} darkModeHanlder={darkModeHanlder} />
         <a href="https://github.com/farazzhh">
           <ImGithub className="text-black dark:text-white text-4xl" />
         </a>
+        <DarkModeButton darkMode={darkMode} darkModeHanlder={darkModeHanlder} />
       </div>
     </nav>
   );
